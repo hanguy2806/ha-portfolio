@@ -10,10 +10,11 @@ const Footer = () => {
   ];
 
   const socials = [
-    { logo: Linkedin, url: "https://www.linkedin.com/in/nguyen-ha-034b2a150/" },
-    { logo: Github, url: "https://github.com/hanguy2806" },
+    { logo: Linkedin, url: "https://www.linkedin.com/in/nguyen-ha-034b2a150/"},
+    { logo: Github, url: "https://github.com/hanguy2806"},
   ];
   return (
+    <>
     <div className="footer">
       <h1 className="footer-title">Let's Get In Touch!</h1>
       <div className="footer-body">
@@ -46,8 +47,8 @@ const Footer = () => {
           ))}
         </div>
       </div>
-      <div className="copyright"> Copyright by Ha Nguyen 2022</div>
     </div>
+      <div className="copyright"> Copyright by Ha Nguyen 2022</div></>
   );
 };
 

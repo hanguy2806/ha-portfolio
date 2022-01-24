@@ -19,7 +19,7 @@ const About = () => {
           start-up and midsize team at Cya.Live, WIMTACH and Pearson Canada Inc
           respectively. Always I disciline myself to get good score at school
           (GPA 4.26/4.50) as well as expand my horizon at programming whenever I
-          have time. I feel myself more intuitive on web development and want to
+          have time. My friends think I am a fast learner and team player. I feel myself more intuitive on web development and want to
           pursue this career path in future.
         </p>
         <div className="about-wimtach">

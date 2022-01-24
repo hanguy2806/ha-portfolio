@@ -1,9 +1,35 @@
-import "./project.css"
+import "./project.css";
 
-const Project = () => {
-    return (<div className="project">
-        project section
-    </div>)
-}
+const Project = ({ project }) => {
+  return (
+    <div className="project">
+      <div className="project-left">
+        <div className="project-title">{project.title}</div>
+        <div className="project-tag">{project.tag}</div>
+        <div className="project-logo-wrapper">
+          <img
+            src={project.logo}
+            alt=""
+            className="project-logo"
+          />
+        </div>
+      </div>
+      <div className="project-middle">
+        {project.techs.map((tech, index) => (
+          <div className="project-tech" key={index}>
+            #{tech}
+          </div>
+        ))}
+      </div>
+      <div className="project-right">
+        <ul className="project-duty-list">
+          {project.duties.map((duty) => (
+            <li key={duty}>{duty}</li>
+          ))}
+        </ul>
+      </div>
+    </div>
+  );
+};
 
 export default Project;

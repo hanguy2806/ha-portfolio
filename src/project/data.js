@@ -1,8 +1,71 @@
-const data =[
-    {id: 1, title: "Wavez", tags:"Co-op placement", techs: ["React", "MongoDB", "Express", "Node"], duties: ["duti 1", "duti 2"]},
-    {id: 2, title: "Dicentra", tags:"Co-op placement",  techs: ["React", "MongoDB", "Express", "Node"], duties: ["duti 1", "duti 2"]},
-    {id: 3, title: "Brew4You", tags:"team work at school", techs: ["React", "MongoDB", "Express", "Node"], url: "githublink", duties: ["duti 1", "duti 2"]},
-    {id: 4, title: "Image Process",tags:"individual project",  techs: ["AWS S3", "DynamoDB"],url: "githublink", duties: ["duti 1", "duti 2"]},
+import Ship from "../img/ship-logo.png";
+import Clinic from "../img/clinic-logo.jpeg";
+import ImageProcess from "../img/img-process.png";
+
+const data = [
+  {
+    id: 1,
+    title: "Wavez",
+    tag: "Co-op placement",
+    techs: ["React(Next.js)", "MongoDB", "Express", "Node", "MUI"],
+    logo: Ship,
+    duties: [
+      "Built UI based on Figma prototype.",
+      "Worked with Jira to follow agile methodology",
+      "Set up and created Unit test (Jest framework).",
+      "Implemented favourite, listing, file upload, signin/signup/forget password, footer,listing detail, validation feature.",
+      "Utilized Next.js optimization to improve front end performance (SSR) in term of routing and localization.",
+    ],
+  },
+  {
+    id: 2,
+    title: "Dicentra",
+    tag: "Co-op placement",
+    techs: ["React(Next.js)", "MongoDB", "Express", "Node", "MUI"],
+    logo: Clinic,
+    duties: [
+      "Created Login/Signup/Forget Password flow.",
+      "Collect user's input to filter participants with specific conditions.",
+      "Built stepper form separating questionaire sections to make users easily follow the form.",
+      "Made admin panel to dynamically create user's questions which was going show in user's portal.",
+      "Integrated Drug Bank service which helped user select existing medication, medical conditions with the help of autocomplete input.",
+    ],
+  },
+  {
+    id: 3,
+    title: "Brew4You",
+    tag: "Team work at school",
+    techs: ["React", "MongoDB", "Express", "Node", "Boostrap"],
+    logo: "https://brew4you.herokuapp.com/static/media/logo.43b7eca4.png",
+    url: "githublink",
+    duties: [
+      "Implemented email subscription feature to let users receive mail from coffee store system (SendGrid).",
+      "Displayed the list of coffee products with proper pagination.",
+      "Added order progress page helping users track their orders.",
+      "Created add to cart feature.",
+    ],
+  },
+  {
+    id: 4,
+    title: "Image Process",
+    tag: "Individual project at school",
+    techs: [
+      "AWS S3",
+      "ASP.NET C#",
+      "DynamoDB",
+      "AWS Rekognition",
+      "Lambda Function"
+    ],
+    logo: ImageProcess,
+    url: "githublink",
+    duties: [
+      "Stored images in S3 bucket.",
+      "Generated tags of a photo using Rekognition service.",
+      "Saved meta data about tags of the most recent uploaded image to DynamoDB table.",
+      "Generated thumbnails of the most recent uploaded image and saved in other folder under S3.",
+      "Deployed Lambda functions and automated state machine."
+    ],
+  },
 ];
 
 export default data;

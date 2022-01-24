@@ -41,6 +41,8 @@
 .about-description{
     font-weight: 300;
     margin: 20px 0px;
+    line-height: 1.5em;
+    width: 90%;
 }
 .about-title{
     font-weight: 400;

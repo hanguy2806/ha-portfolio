@@ -27,10 +27,14 @@
 }
 .intro-name{
     font-size: 60px;
+    font-weight: 900;
 }
 .intro-title{
     height: 50px;
     overflow: hidden;
+}
+.intro-description{
+    font-size: 22px;
 }
 .intro-title-wrapper{
     height: 100%;
@@ -48,9 +52,9 @@
 
 .intro-title-item{
     height: 50px;
-    font-size: 30px;
-    font-weight: bold;
-    color: chocolate;
+    font-size: 40px;
+    font-weight: 1000;
+    color: rgb(205 34 42);
     display: flex;
     align-items: center;
 }

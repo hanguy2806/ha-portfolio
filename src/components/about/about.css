@@ -13,6 +13,7 @@
 }
 .about-right{
     flex: 1;
+    margin-left: 60px;
 }
 
 .about-card.shadow{
@@ -36,12 +37,12 @@
     object-fit: cover;
 }
 .about-sub{
-    margin: 20px 0px;
+    margin: 10px 0px;
 }
 .about-description{
     font-weight: 300;
     margin: 20px 0px;
-    line-height: 1.5em;
+    line-height: 2em;
     width: 90%;
 }
 .about-title{
@@ -51,7 +52,6 @@
     margin-top: 50px;
     font-weight: bold;
 }
-
 a:link, a:visited {
     background-color: #f44336;
     color: white;

@@ -4,11 +4,16 @@ import Me from "../../img/me.png";
 const Introduction = () => {
   return (
     <div className="intro">
+      <div className="intro-right">
+        <img src={Me} alt="" className="intro-ava" />
+      </div>
       <div className="intro-left">
         <div className="intro-left-wrapper">
           <h2 className="intro-hello">Hello my name is</h2>
           <h1 className="intro-name">Ha Nguyen</h1>
-          <p className="intro-explain">*Call me Ha Ha sounds like you are laughing*</p>
+          <p className="intro-explain">
+            *Call me Ha Ha sounds like you are laughing*
+          </p>
           <div className="intro-title">
             <div className="intro-exp">I was a &nbsp;</div>
             <div className="intro-title-wrapper">
@@ -23,9 +28,6 @@ const Introduction = () => {
             full-time role of Frontend/Backend Developer.
           </div>
         </div>
-      </div>
-      <div className="intro-right">
-        <img src={Me} alt="" className="intro-ava" />
       </div>
     </div>
   );

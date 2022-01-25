@@ -1,17 +1,13 @@
 import "./about.css";
 import Me from "../../img/me_Working.jpg";
+import OpenInNewIcon from '@mui/icons-material/OpenInNew';
+
 const About = () => {
   return (
-    <div className="about">
-      <div className="about-left">
-        <div className="about-card shadow"></div>
-        <div className="about-card">
-          <img src={Me} alt="" className="about-img" />
-        </div>
-      </div>
+    <div className="about">     
       <div className="about-right">
         <h1 className="about-title">About Me</h1>
-        <p ckassName="about-sub">
+        <p className="about-sub">
           Graduted student with hands-on experiences from industry.
         </p>
         <p className="about-description">
@@ -24,14 +20,20 @@ const About = () => {
           player. I feel myself more intuitive on web development and want to
           pursue this career path in future.
         </p>
-        <div className="about-wimtach">
+        <div className="about-wimtach">          
           <a
             target="_blank"
             rel="noreferrer"
             href="https://wimtach.centennialcollege.ca/student-profile-thi-thu-ha-nguyen/"
           >
-            Me at WIMTACH
+            Me at WIMTACH <OpenInNewIcon style={{fontSize: 18}}/>
           </a>
+        </div>
+      </div>
+      <div className="about-left">
+        <div className="about-card shadow"></div>
+        <div className="about-card">
+          <img src={Me} alt="" className="about-img" />
         </div>
       </div>
     </div>

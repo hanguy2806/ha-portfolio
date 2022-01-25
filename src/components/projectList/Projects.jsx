@@ -11,6 +11,7 @@ const Projects = () => {
     "Express",
     "JS6",
     "MUI",
+    "Jest",
     "Java",
     "ASP.NET",
     "C#",

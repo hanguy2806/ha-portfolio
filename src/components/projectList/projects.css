@@ -10,9 +10,9 @@
 .projects-title {
   font-size: 30px;
   font-weight: 600;
+  margin: 20px;
 }
 .projects-description {
-  margin: 20px 0px;
   font-weight: 500;
   font-size: 20px;
 }

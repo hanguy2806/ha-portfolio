@@ -7,12 +7,25 @@ const Project = ({ project }) => {
         <div className="project-title">{project.title}</div>
         <div className="project-tag">{project.tag}</div>
         <div className="project-logo-wrapper">
-          <img
-            src={project.logo}
-            alt=""
-            className="project-logo"
-          />
+          <a
+            style={{ backgroundColor: "white" }}
+            href={project?.url}
+            target="_blank"
+            rel="noreferrer"
+          >
+            <img src={project.logo} alt="" className="project-logo" />
+          </a>
         </div>
+        {project?.url && (
+          <a
+            className="project-demo"
+            href={project?.url}
+            target="_blank"
+            rel="noreferrer"
+          >
+            Demo
+          </a>
+        )}
       </div>
       <div className="project-middle">
         {project.techs.map((tech, index) => (

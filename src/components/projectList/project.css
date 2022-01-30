@@ -53,3 +53,19 @@ ul li::before {
   padding: 10px;
   color: #f44336;
 }
+.project-demo {
+  background-color: rgb(118, 173, 63) !important;
+}
+
+.project-demo:hover {
+  background-color: rgba(118, 173, 63, 0.8) !important;;
+}
+
+@media screen and (max-width: 768px) {
+  .project{
+      flex-direction: column;
+  }
+  .footer-body{
+      flex-direction: column;
+  }
+}

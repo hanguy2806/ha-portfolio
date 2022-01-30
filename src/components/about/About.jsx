@@ -1,8 +1,25 @@
 import "./about.css";
 import Me from "../../img/me_Working.jpg";
 import OpenInNewIcon from '@mui/icons-material/OpenInNew';
+import CheckCircleIcon from '@mui/icons-material/CheckCircle';
 
 const About = () => {
+  const favTech = [
+    "React",
+    "Node",
+    "MongoDB",
+    "Express",
+    "JS6",
+    "MUI",
+    "Jest",
+    "Java",
+    "ASP.NET",
+    "C#",
+    "AWS",
+    "CSS",
+    "HTML",
+    "Agile Methodology",
+  ];
   return (
     <div className="about">     
       <div className="about-right">
@@ -20,6 +37,13 @@ const About = () => {
           player. I feel myself more intuitive on web development and want to
           pursue this career path in future.
         </p>
+        <div className="projects-tech-stack">
+          {favTech.map((item) => (
+            <div className="tech" key={item}>
+               <CheckCircleIcon />&nbsp;<span>{item}</span>
+            </div>
+          ))}
+        </div>
         <div className="about-wimtach">          
           <a
             target="_blank"

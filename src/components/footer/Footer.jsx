@@ -1,12 +1,14 @@
 import "./footer.css";
 import Linkedin from "../../img/linkedin-logo.png";
 import Github from "../../img/github-logo.png";
-
+import Address from "../../img/home-logo.jpeg";
+import Phone from "../../img/phone-logo.png";
+import Email from "../../img/mail-logo.png";
 const Footer = () => {
   const contacts = [
-    { type: "Address", value: "3484 Fleming Street, Vancouver, BC, V5N 3V8" },
-    { type: "Phone", value: "+1 (416) 995 4492" },
-    { type: "Email", value: "hanghenguyen@gmail.com" },
+    { type: "Address", logo: Address, value: "3484 Fleming Street, Vancouver, BC, V5N 3V8" },
+    { type: "Phone", logo: Phone, value: "+1 (416) 995 4492" },
+    { type: "Email", logo: Email, value: "hanghenguyen@gmail.com" },
   ];
 
   const socials = [
@@ -20,9 +22,17 @@ const Footer = () => {
       <div className="footer-body">
         <div className="footer-left">
           <div className="footer-section-title">Contact me</div>
-          {contacts.map((item) => (
+          {/* {contacts.map((item) => (
             <div className="footer-contact-item" key={item.type}>
               {item.type} : {item.value}
+            </div>
+          ))} */}
+          {contacts.map((item) => (
+            <div className="footer-social-item" key={item.url}>
+              <img src={item.logo} className="footer-logo" alt=""/>
+              <div className="footer-contact-item" key={item.type}>
+              {item.value}
+            </div>
             </div>
           ))}
         </div>

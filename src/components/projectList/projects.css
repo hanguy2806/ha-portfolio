@@ -20,21 +20,9 @@
 .projects-list {
   padding: 20px;
 }
-.projects-tech-stack {
-  width: 80%;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  overflow: hidden;
-  flex-wrap: wrap;
-}
-.tech {
-  background-color: rgb(118, 173, 63);
-  padding: 10px;
-  border-radius: 10px;
-  color: white;
-  margin: 10px;
-  font-size: 18px;
-  display: flex;
-}
 
+@media screen and (max-width: 768px) {
+  .projects{
+     width: auto;
+  }
+}

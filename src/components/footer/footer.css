@@ -20,6 +20,9 @@
     flex: 1;
     line-height: 2em;
 }
+.footer-contact-item{
+    margin-left: 20px;
+}
 .footer-section-title{
     font-size: 20px;
     font-weight: 550;
@@ -44,5 +47,20 @@
     font-size: 14px;
     color: #fff8dc;
     background-color: #131212;
-    padding: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+@media screen and (max-width: 768px) {
+    .footer{
+        height: auto;
+        width: fit-content;
+    }
+    .footer-body{
+        flex-direction: column;
+    }
+    .copyright{
+        width: auto;
+    }
 }

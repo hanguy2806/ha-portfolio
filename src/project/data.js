@@ -23,7 +23,7 @@ const data = [
     tag: "Co-op placement",
     techs: ["React(Next.js)", "MongoDB", "Express", "Node", "MUI"],
     logo: Clinic,
-    url: "https://vitalabs.clinic/",
+    //url: "https://vitalabs.clinic/",
     duties: [
       "Created Login/Signup/Forget Password flow.",
       "Collect user's input to filter participants with specific conditions.",

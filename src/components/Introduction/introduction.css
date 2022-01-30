@@ -2,6 +2,7 @@
     display: flex;
     background-color: #fff8dc;
     height: 100vh;
+    width: fit-content;
 }
 .intro-left{
     flex:1;
@@ -75,4 +76,31 @@
  height: 100%;
  object-fit: cover;
  position: absolute;
+}
+
+@media screen and (max-width: 480px) {
+    .intro{
+        height: 100vh;
+        width: auto;
+        flex-direction: column-reverse;
+    }
+    .intro-left-wrapper{
+        height: auto;
+        padding: 50px;
+        margin-top: auto;
+    }
+    .intro-title-item{
+        font-size: 26px;
+    }
+    .intro-description, .intro-explain{
+        visibility: hidden;
+    }
+
+    .intro-name{
+        font-size: 45px;
+        font-weight: 900;
+    }
+    .intro-right{   
+        height: fit-content;
+    }
 }

@@ -23,6 +23,7 @@ const data = [
     tag: "Co-op placement",
     techs: ["React(Next.js)", "MongoDB", "Express", "Node", "MUI"],
     logo: Clinic,
+    url: "https://vitalabs.clinic/",
     duties: [
       "Created Login/Signup/Forget Password flow.",
       "Collect user's input to filter participants with specific conditions.",
@@ -37,7 +38,7 @@ const data = [
     tag: "Team work at school",
     techs: ["React", "MongoDB", "Express", "Node", "Boostrap"],
     logo: "https://brew4you.herokuapp.com/static/media/logo.43b7eca4.png",
-    url: "githublink",
+    url: "https://brew4you.herokuapp.com/",
     duties: [
       "Implemented email subscription feature to let users receive mail from coffee store system (SendGrid).",
       "Displayed the list of coffee products with proper pagination.",
@@ -57,7 +58,6 @@ const data = [
       "Lambda Function"
     ],
     logo: ImageProcess,
-    url: "githublink",
     duties: [
       "Stored images in S3 bucket.",
       "Generated tags of a photo using Rekognition service.",

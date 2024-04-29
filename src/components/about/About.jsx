@@ -28,14 +28,15 @@ const About = () => {
           Graduted student with hands-on experiences from industry.
         </p>
         <p className="about-description">
-          While at Centennial College, I was lucky to join 3 Co-op placements at
-          start-up and midsize team at Cya.Live, WIMTACH and Pearson Canada Inc
-          respectively, gaining plenty of experiences through different
-          responsibilities. Always, I discipline myself to get good score at
-          college (GPA 4.26/4.50) as well as expand my horizon at programming
-          whenever I have time. My friends think I am a fast learner and team
-          player. I feel myself more intuitive on web development and want to
-          pursue this career path in future.
+        During college, I completed three Co-op placements at Cya.Live, WIMTACH, and Pearson Canada Inc., 
+        acquiring diverse experiences and responsibilities. I maintained a high GPA of 4.26/4.50 while 
+        continuously expanding my programming skills, particularly focusing on web development. 
+        Recognized as a fast learner and team player by my peers, I aspire to pursue a career in web development in the future.
+        </p>
+        <p className="about-description">
+        As a full-stack developer at CAE, I work with .Net, Vue.js, and Azure stack. 
+        Daily challenges contribute significantly to my growth, enhancing not just my technical skills 
+        but also fostering a more thoughtful approach in everything I do.
         </p>
         <div className="projects-tech-stack">
           {favTech.map((item) => (

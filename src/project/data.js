@@ -1,13 +1,29 @@
 import Ship from "../img/ship-logo.png";
 import Clinic from "../img/clinic-logo.jpeg";
 import ImageProcess from "../img/img-process.png";
+import DotNet from "../img/dot-net-logo.png";
 
 const data = [
   {
     id: 1,
+    title: "Company internal projects",
+    tag: "Current work",
+    techs: [".Net C#", "SQL", "Vue.js", "MS Azure", "CICD"],
+    logo: DotNet,
+    duties: [
+      "Support and enhance legacy applications utilizing C# .Net.",
+      "Engage in the restructuring stages of legacy monolithic applications, transitioning them to the cloud using MS Azure.",
+      "Handle urgent customer issues promptly and troubleshoot performance bottlenecks.",      "Refactor code to follow best practice, design pattern, OOP principals",
+      "Optimize code by adhering to best practices, implementing design patterns, and upholding OOP principles.",
+      "Conduct thorough code reviews to ensure quality and maintainability.",
+      "Make sure unit test in place during development process"
+    ]
+  },
+  {
+    id: 2,
     title: "Wavez",
     tag: "Co-op placement",
-    techs: ["React(Next.js)", "MongoDB", "Express", "Node", "MUI"],
+    techs: ["React(Next.js)", "MongoDB", "Express.js", "Node.js", "MUI"],
     logo: Ship,
     duties: [
       "Built UI based on Figma prototype.",
@@ -18,7 +34,7 @@ const data = [
     ],
   },
   {
-    id: 2,
+    id: 3,
     title: "Dicentra",
     tag: "Co-op placement",
     techs: ["React(Next.js)", "MongoDB", "Express", "Node", "MUI"],
@@ -32,7 +48,7 @@ const data = [
     ],
   },
   {
-    id: 3,
+    id: 4,
     title: "Brew4You",
     tag: "Team work at school",
     techs: ["React", "MongoDB", "Express", "Node", "Boostrap"],
@@ -46,7 +62,7 @@ const data = [
     ],
   },
   {
-    id: 4,
+    id: 5,
     title: "Image Process",
     tag: "Individual project at school",
     techs: [

@@ -5,19 +5,16 @@ import CheckCircleIcon from '@mui/icons-material/CheckCircle';
 
 const About = () => {
   const favTech = [
-    "React",
-    "Node",
-    "MongoDB",
-    "Express",
-    "JS6",
-    "MUI",
-    "Jest",
-    "Java",
-    "ASP.NET",
-    "C#",
-    "AWS",
-    "CSS",
+    "React.js",
     "HTML",
+    "CSS",
+    "Node.js",
+    "Express.js",
+    "MongoDB",
+    "SQL",
+    ".NET",
+    "C#",
+    "MS Azure",
     "Agile Methodology",
   ];
   return (

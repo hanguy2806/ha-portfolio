@@ -22,7 +22,7 @@ const About = () => {
       <div className="about-right">
         <h1 className="about-title">About Me</h1>
         <p className="about-sub">
-          Graduted student with hands-on experiences from industry.
+          Web developer with hands-on experiences from industry.
         </p>
         <p className="about-description">
         During college, I completed three Co-op placements at Cya.Live, WIMTACH, and Pearson Canada Inc., 

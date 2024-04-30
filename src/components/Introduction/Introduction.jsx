@@ -19,13 +19,11 @@ const Introduction = () => {
             <div className="intro-title-wrapper">
               <div className="intro-title-item">Front End Developer.</div>
               <div className="intro-title-item">Media Developer.</div>
-              <div className="intro-title-item">Full Stack.</div>
+              <div className="intro-title-item">MERN Full Stack.</div>
             </div>
           </div>
           <div className="intro-description">
-            I am a new grad from Software Engineering program at Centennial
-            college. This year, I am so excited to join tech industry as
-            full-time role of Frontend/Backend Developer.
+          I currently work as a full stack developer at CAE, and outside of coding, I dedicate a significant amount of time to cooking.
           </div>
         </div>
       </div>

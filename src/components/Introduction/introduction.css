@@ -2,7 +2,6 @@
     display: flex;
     background-color: #fff8dc;
     height: 100vh;
-    width: fit-content;
 }
 .intro-left{
     flex:1;

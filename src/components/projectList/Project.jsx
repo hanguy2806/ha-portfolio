@@ -16,16 +16,6 @@ const Project = ({ project }) => {
             <img src={project.logo} alt="" className="project-logo" />
           </a>
         </div>
-        {project?.url && (
-          <a
-            className="project-demo"
-            href={project?.url}
-            target="_blank"
-            rel="noreferrer"
-          >
-            Demo
-          </a>
-        )}
       </div>
       <div className="project-middle">
         {project.techs.map((tech, index) => (
